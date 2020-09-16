@@ -6,6 +6,7 @@ body {
 font-family: 'Lato';font-size: 20px; font-weight: bolder; }
 </style>
 </head>
+<h1 style="color:#F5F1E3">
 <body onload="autoPlay()" style="background-color:black; color:gray">
 	<center><h1>LIVE STREAM TEST PAGE</h1>
 	<div id="la1-video-player" data-embed-id="b3fb2f41-13d2-4a79-a9b9-a1ff4c78546d" style="width:80%"></div>
@@ -13,7 +14,7 @@ font-family: 'Lato';font-size: 20px; font-weight: bolder; }
 	var vid = document.getElementById("la1-video-player");
 	
 	function muteAudio() {
-	vid.muted = true;
+	vid.muted = false;
 	}
 	
 	function autoPlay() {
